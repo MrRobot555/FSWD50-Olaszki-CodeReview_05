@@ -1,0 +1,65 @@
+.myblack {
+	background-color: black;
+}
+
+body {
+	background: #343a40;
+}
+
+.myfontstyle1 {
+	font-size: 22px;
+}
+
+div {
+	border: 2px solid black; 
+}
+
+
+.myfontstyle_main {
+	font-size: 30px;
+}
+
+.movie_title, .movie_description {
+	color: white;
+}
+
+.movie_title {
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+
+.movie_cover {
+	float: left;
+	margin-right: 15px;
+
+}
+
+#movie-content {
+	margin: 15px;
+}
+
+.outershell {
+	margin: 15px;
+	padding: 15px;
+	overflow : hidden;
+	/* background: black; */ 
+	border-radius: 15px;
+
+}
+
+.likebutton {
+	color: green;
+	text-align: right;
+	padding-top: 15px;
+	font-size: 30px;
+}
+
+.flexcontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	min-height: 270px;
+
+
+}

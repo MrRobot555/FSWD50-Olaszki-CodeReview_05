@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="utf-8">
+
+	<!-- I am using Bootstrap 4.1.3 -->
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- And jQuery 3.3.1 -->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ 	  crossorigin="anonymous">
+ 	 </script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./CSS/style2.css">
+
+	<script src="./JSON/data.json"></script>
+
+</head>
+<body>
+
+	
+	<div class="container-fluid bg-gray "> <!-- Using fluid for modern wide screens - Main Bootstrap container -->
+		
+
+
+			<div class="row text-center text-white myblack py-4 myfontstyle_main"> <!-- first row -->
+
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">Movie Factory</div>
+
+			</div>
+			
+			<div class="row text-left text-white display-6 font-weight-bold bg-secondary py-3"> <!-- second row (menu) -->
+
+				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">HOME</div>
+
+			</div>
+
+			<div class="row text-white text-center myfontstyle1 py-4"> <!-- movie and sort button -->
+
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 offset-md-4">Movies</div>
+
+				<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-md-1">▼ Sort</div>
+				
+			</div>
+
+			<div class="row" id="movie_content"> <!-- dynamic content from JavaScript -->
+				
+
+			</div>
+
+			<footer>
+
+				<div class="row text-center text-white myblack py-4 myfontstyle_footer"> <!-- footer -->
+
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">Movie Factory</div>
+
+				</div>
+
+			</footer>
+
+
+<script src="./JS/myscript.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</div>
+</body>
+</html>

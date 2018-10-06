@@ -1,0 +1,81 @@
+.myblack {
+	background-color: black;
+}
+
+body {
+	background: #343a40;
+}
+
+.myfontstyle1 {
+	font-size: 22px;
+}
+
+div {
+	/* border: 2px solid black; */ 
+}
+
+
+.myfontstyle_main {
+	font-size: 38px;
+}
+
+.myfontstyle_footer {
+	font-size: 30px;
+}
+
+
+.movie_title, .movie_description {
+	color: white;
+}
+
+.movie_title {
+	margin-bottom: 15px;
+	font-size: 22px;
+}
+
+.movie_cover {
+	float: left;
+	margin-right: 15px;
+
+}
+
+#movie-content {
+	margin: 15px;
+}
+
+.outershell {
+	margin: 0.9vw;
+	padding: 15px;
+	overflow : hidden;
+	background: black;
+	border-radius: 15px;
+	z-index: -2;
+
+}
+
+.likebutton {
+	color: green;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 27px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	clear: top;
+	position: relative;
+	z-index : 2;
+}
+
+
+
+.likebutton img {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+}
+
+
+
+.destext {
+	min-height: 150px;
+}
