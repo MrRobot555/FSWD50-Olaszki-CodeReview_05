@@ -11,7 +11,7 @@ body {
 }
 
 div {
-	/* border: 2px solid black; */ 
+	/* border: 2px solid black; */
 }
 
 
@@ -47,7 +47,7 @@ div {
 	margin: 0.9vw;
 	padding: 15px;
 	overflow : hidden;
-	background: black;
+	background: black; 
 	border-radius: 15px;
 	z-index: -2;
 
@@ -63,6 +63,9 @@ div {
 	clear: top;
 	position: relative;
 	z-index : 2;
+	cursor: pointer;
+	float: right;
+	width: 185px;
 }
 
 

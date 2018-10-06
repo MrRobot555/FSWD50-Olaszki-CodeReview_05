@@ -10,9 +10,9 @@ $.each(moviebase, function (i){
 	$("#movie_content").append(item);
 
 	
-//examine if the like count is larger than 10
+//examine if the like count is one digit or two digit
 	if (moviebase[i].likes.toString().length > 1) {
-//if yes, we change the padding-right so that the double digit number gets to the center of the circle
+//we change the padding-right so that the double digit number gets to the center of the circle
 		    $('#' + i + ' .likebutton').css('padding-right', '20px');
 	     }
 });
@@ -31,8 +31,11 @@ function likeIncrease(a){
 
 //adding event handler to every button
 function addEventHandler() {
- $(".likebutton").click(function(){likeIncrease(this)});
+ $(".likebutton, .sortbutton").click(function(){likeIncrease(this)});
 }
+
+
+
 
 refreshdisplay();
 
