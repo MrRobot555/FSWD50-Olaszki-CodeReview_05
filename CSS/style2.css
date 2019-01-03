@@ -10,9 +10,9 @@ body {
 	font-size: 22px;
 }
 
-div {
-	/* border: 2px solid black; */
-}
+/* div {
+	border: 1px solid red; 
+} */
 
 
 .myfontstyle_main {
@@ -36,6 +36,7 @@ div {
 .movie_cover {
 	float: left;
 	margin-right: 15px;
+	margin-bottom: 70px;
 
 }
 
@@ -50,35 +51,63 @@ div {
 	background: black; 
 	border-radius: 15px;
 	z-index: -2;
+	min-height: 95%;
 
 }
 
 .likebutton {
 	color: green;
-	text-align: right;
-	padding-top: 10px;
-	padding-right: 27px;
-	padding-bottom: 10px;
+	text-align: left;
 	font-size: 30px;
 	clear: top;
-	position: relative;
-	z-index : 2;
-	cursor: pointer;
-	float: right;
-	width: 185px;
-}
-
-
-
-.likebutton img {
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
-	z-index: -1;
+	right: 100px;
+	bottom: 40px;
+	z-index : 1;
+	cursor: pointer;
+	width: 120px;
 }
-
 
 
 .destext {
 	min-height: 150px;
 }
+
+.sortbutton {
+	cursor: pointer;
+}
+
+.circleback {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: green;
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	z-index: 1;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.jumbotron {
+  background-image: url("../img/cover.jpg");
+  background-size: 100% auto;
+}
+
+.jumbotron hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.myshadow {
+	text-shadow: 2px 2px 4px #000000;
+}
+
